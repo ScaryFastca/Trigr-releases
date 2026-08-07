@@ -10,6 +10,8 @@ Profiles allow you to set everything up exactly how you would like and then load
 
 This app works best with the sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming model, which is rather large at around 640MB, but the installer will prompt you to download that model and other smaller but inferior models. 
 
+<a href="https://github.com/ScaryFastca/Trigr-releases/releases/download/v0.9.8-beta/Trigr-Setup-0.9.8-beta.exe">Current version Trigr-Setup-0.9.8-beta.exe</a> Expires February 1st 2027
+
 sha256    : 1d03775209fef7d6e9802c99e51f62f036e3f0023ac2b059b7c1faf518466fc1
 
 <p align="center">
