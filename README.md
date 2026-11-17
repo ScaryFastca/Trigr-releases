@@ -1,18 +1,44 @@
-# Trigr-releases
+# Trigr
 
-This is the first beta release for Trigr, a screen and Stream/VOD recording app that can record up to three sources at once, analyze audio for words and sounds, and generate clips automatically. 
+Trigr is a Windows recorder that knows what's in the recording. It listens to everything it records and writes it down, right on your PC, so it can save the good moments by itself, find any of them by a word, and hand you a clip that's already captioned and ready to edit.
 
-The app can automatically begin recording streams when they go live, or when motion is detected in a screen area, or after a set time, or on a certain date and time. It can stop when a stream or VOD ends, or motion has ceased for a set time, or again after a set time or on a specific time and date.
+This repository holds the public beta downloads. Trigr is free during the beta.
 
-There's a video file browser, editor to trim, slice, and crop videos, and a sequence creator for combining clips together into one file with transitions. Transcripts from the videos can be used to set in and out points for clips and the app can search through them for key words as well.
+## Download
 
-Profiles allow you to set everything up exactly how you would like and then load that profile into a slot. When you're done you can empty the slot or open another profile in its place.
+**[Trigr-Setup-0.11.0-beta.exe](https://github.com/ScaryFastca/Trigr-releases/releases/download/v0.11.0-beta/Trigr-Setup-0.11.0-beta.exe)** · Windows 10/11, 64-bit · about 175 MB · signed installer
 
-This app works best with the sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming model, which is rather large at around 640MB, but the installer will prompt you to download that model and other smaller but inferior models. 
+- This build runs until **May 1, 2027**. A newer build will be posted here before then.
+- SHA-256: `d0f32deb6d9f6c43f4959881bc27de5f9d1fa84fa11b383d5c308deb9fe23827`
+- [Release notes and older versions](https://github.com/ScaryFastca/Trigr-releases/releases)
 
-<a href="https://github.com/ScaryFastca/Trigr-releases/releases/download/v0.9.8-beta/Trigr-Setup-0.9.8-beta.exe">Current version Trigr-Setup-0.9.8-beta.exe</a> Expires February 1st 2027
+Windows may show a SmartScreen notice for a new app. Click **More info** and check that the publisher is Andrew Tiitto.
 
-sha256    : 1d03775209fef7d6e9802c99e51f62f036e3f0023ac2b059b7c1faf518466fc1
+## What it does
+
+**Capture.** Record up to three sources at once: a screen region, a monitor, a window, or a Twitch, YouTube or Kick link (live streams and VODs, no browser needed). Recording can start when a stream goes live, when motion is detected in a screen area, after a set time, or at a set date and time. It can stop when a stream or VOD ends, when motion has stopped for a set time, or on a timer.
+
+**Understand.** Speech recognition and sound detection run on your own PC while it records. A keyword, a sound, motion or on-screen text can save a clip automatically, starting a few seconds before the moment happened.
+
+**Find.** Every recording lands in the Library with its transcript. Search all your folders for a word or a sound, preview, mark, rename and move files in batches, and repair audio dropouts.
+
+**Finish.** The Studio has Trim (cut, slice, crop), Sequence (combine clips with transitions) and a multitrack Editor: edit by transcript, animated captions, keyframes, titles, clip speed, stabilize, and export to MP4, WebM, GIF or MP3.
+
+**Captions and translation.** Live captions on anything playing, with offline translation between English and ten languages: Bulgarian, Czech, Estonian, French, German, Italian, Portuguese, Russian, Spanish and Ukrainian. Translations can be read aloud or burned into exports.
+
+**Profiles and themes.** Set up a slot exactly how you like, save it as a profile, and load it into any slot later. Pick a colour theme for the whole app.
+
+Everything runs locally. There is no account and nothing is uploaded.
+
+## Speech models
+
+Trigr works best with the `sherpa-onnx-nemo-parakeet-unified-en-0.6b-int8-non-streaming` model, which is large at around 640 MB. The setup wizard offers to download it, along with smaller but less accurate models.
+
+## Feedback
+
+In App settings, use **Copy diagnostics** and send it along with what happened.
+
+## Screenshots
 
 <p align="center">
 <img width="1130" height="322" alt="Trigr_sk1XNFOodb" src="https://github.com/user-attachments/assets/2cd00024-f2e7-4a68-8b7c-9daca367b025" />
