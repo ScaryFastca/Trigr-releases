@@ -6,10 +6,10 @@ This repository holds the public beta downloads. Trigr is free during the beta.
 
 ## Download
 
-**[Trigr-Setup-0.11.0-beta.exe](https://github.com/ScaryFastca/Trigr-releases/releases/download/v0.11.0-beta/Trigr-Setup-0.11.0-beta.exe)** · Windows 10/11, 64-bit · about 175 MB · signed installer
+**[Trigr-Setup-0.11.1-beta.exe](https://github.com/ScaryFastca/Trigr-releases/releases/download/v0.11.1-beta/Trigr-Setup-0.11.1-beta.exe)** · Windows 10/11, 64-bit · about 175 MB · signed installer
 
 - This build runs until **May 1, 2027**. A newer build will be posted here before then.
-- SHA-256: `d0f32deb6d9f6c43f4959881bc27de5f9d1fa84fa11b383d5c308deb9fe23827`
+- SHA-256: `20f540d50d4d29ab099dceabeb54d025d69aab58a7ac19f46f937422c955069f`
 - [Release notes and older versions](https://github.com/ScaryFastca/Trigr-releases/releases)
 
 Windows may show a SmartScreen notice for a new app. Click **More info** and check that the publisher is Andrew Tiitto.
